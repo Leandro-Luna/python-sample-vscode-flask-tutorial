@@ -6,9 +6,7 @@
 trigger:
 - main
 pool:
-  name: Default
-  demands:
-   - agent.name -equals DESKTOP-6TEKMJE
+  name: Azure Pipelines
 strategy:
   matrix:
     Python27:
